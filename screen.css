@@ -7,5 +7,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 html{
-  
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.125em; /* 18px/16px */
+  line-height: 1.2em; /* 18 x 120% = 21.6px */
+  padding: 3.4375% 3.4375%; /* 22px /2 = 11px 11/320=0.034375 */ 
 }
