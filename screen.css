@@ -11,14 +11,18 @@ html{
   font-size: 1.125em; /* 18px/16px */
   line-height: 1.2em; /* 18 x 120% = 21.6px */
   padding: 3.3375% 3.4375%; /* 22px /2 = 11px 11/320=0.034375 */ 
-  background: grey;
+  background: gray;
 }
 
 h1{
   font-family: Raleway, serif;
   font-size: 2.25em; /*40.5px/18px */
-  line-height: 1.6em; /* 64.8px / 40.5px */
-  background: blue;
+  line-height: 2.133em; /* 21.6x4px / 40.5px */
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; /* code from: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+  background-image: url("img/header.png");
+  background-size: auto 100%;
+  text-align: center;
 }
 
 label,
