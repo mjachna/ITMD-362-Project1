@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Forms Project 1</title>
     <link rel="stylesheet" media="screen" href="css/screen.css" />
+	<link rel="stylesheet" media="screen" href="//basehold.it/28" />
   </head>
   <body>
+    <h1>A Good Name for a Gaming Newsletter</h1>
     <section id="sec-form">
       <form action="#null">
     <ol>
+	  <li id="input-name">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Prefered Name" />
+      </li>
       <li id="input-email">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="you@example.com" />
       </li>
+	  <li id="input-frequent">
+	    <label for="frequent">Frequency of emails</label>
+		<input type="radio" name="frequent" value="daily" />
+		<label for="daily">Daily</label>
+		<input type="radio" name="frequent" value="biweekly" />
+		<label for="biweekly">Biweekly</label>
+		<input type="radio" name="frequent" value="weekly" />
+		<label for="weekly">Weekly</label>
+	  </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="submit" />
       </li>
