@@ -16,14 +16,17 @@ html{
 
 h1{
   font-family: Raleway, serif;
-  font-size: 2.25em; /*40.5px/18px */
-  line-height: 2.133em; /* 21.6x4px / 40.5px */
+  font-size: 2.027em; /*36.491px/18px */
+  line-height: 2.367em; /* 21.6x4px / 36.491px */
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; /* code from: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
-  background-image: url("img/header.png");
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; /* shadow code from: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+  background-image: url("img/header.png"); /*Note to self: Give credit*/
   background-size: auto 100%;
   text-align: center;
-  margin-bottom: 1.066em;
+  margin-bottom: 0.5919em;
+  border: .2959em double;
+  border-radius: .2959em;
+  border-color: black;
 }
 
 #form-newsletter{
@@ -32,10 +35,12 @@ h1{
   border-color: black;
   background: lightgray;
   padding: .588em 0;
+  margin-top: 1.2em;
 }
 
 ol{
  padding: 0 .6em;
+ position: relative;
 }
 
 #input-name input,
@@ -68,4 +73,24 @@ ol{
   background-color: lightgray;
   padding: .6em 30px;
 }
+
+#bg-img1 img{
+  position: absolute;
+  width: 60%;
+  opacity: .2;
+  padding-right: 20%;
+  pointer-events: none;
+  
+}
+
+#bg-img2 img{
+  position: absolute;
+  width: 80%;
+  opacity: .5;
+  padding-left: 30%;
+  padding-top: 10em;
+  pointer-events: none;
+}
+
+
 
