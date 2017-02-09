@@ -23,9 +23,17 @@ h1{
   background-image: url("img/header.png");
   background-size: auto 100%;
   text-align: center;
+  margin-bottom: 1.066em;
 }
 
-label,
+#form-newsletter{
+  border: .588em solid;
+  border-color: black;
+  background: lightgray;
+  padding: .588em 0;
+}
+
+#input-name label,
 input{
   box-sizing: border-box;
   display: block;
