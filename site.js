@@ -1,0 +1,6 @@
+$.noConflict();
+jQuery(function($){
+
+
+
+})
