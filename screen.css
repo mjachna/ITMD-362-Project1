@@ -9,33 +9,38 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html{
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.125em; /* 18px/16px */
-  line-height: 1.2em; /* 18 x 120% = 21.6px */
+  line-height: 1.2em; /* 18 x 120% = 22px */
   padding: 3.3375% 3.4375%; /* 22px /2 = 11px 11/320=0.034375 */ 
-  background: gray;
+  background-color: #71baaa;
+  background-image: linear-gradient(#2A881B, #132a07); 
+ 
 }
 
 h1{
   font-family: Raleway, serif;
   font-size: 2.027em; /*36.491px/18px */
-  line-height: 2.367em; /* 21.6x4px / 36.491px */
+  line-height: 2.411em; /* 22x4 px / 36.491px */
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; /* shadow code from: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
-  background-image: url("img/header.png"); /*Note to self: Give credit*/
+  text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green; /* shadow code from: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+  background-image: url("img/Untitled3.jpg"); /*Note to self: Give credit*/
   background-size: auto 100%;
   text-align: center;
-  margin-bottom: 0.5919em;
-  border: .2959em double;
-  border-radius: .2959em;
-  border-color: black;
+  margin-bottom: .502em;
+  border: .1em solid;
+  border-color:white;
+}
+
+p{
+  background-color: white;
+  border-radius: .5em; 
+  padding: .6em .6em;
 }
 
 #form-newsletter{
-  border: .588em double;
-  border-radius: .588em;
-  border-color: black;
-  background: lightgray;
-  padding: .588em 0;
+  background: white;
+  padding: ..6em 0;
   margin-top: 1.2em;
+  border-radius: .5em; 
 }
 
 ol{
@@ -70,16 +75,8 @@ ol{
   border : solid 5px;
   border-color: black;
   border-radius : 5px 25px;
-  background-color: lightgray;
+  background-color: #2A881B;
   padding: .6em 30px;
-}
-
-#bg-img1 img{
-  position: absolute;
-  width: 60%;
-  opacity: .2;
-  padding-right: 20%;
-  pointer-events: none;
 }
 
 #bg-img2 img{
