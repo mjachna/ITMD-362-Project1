@@ -5,35 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Forms Project 1</title>
     <link rel="stylesheet" media="screen" href="screen.css" />
-	<link rel="stylesheet" media="screen" href="//basehold.it/22" />
+	
   </head>
   <body>
     <h1>Gaming Division</h1>
     <figure id="bg-img2"> <!-- Source: http://planetrenders.net/renders/scifi-guido-series-100.69759/ -->
       <img src="img/suit.png" /> 
     </figure>
-    <p>The Gaming Division will bring you the latest news weekly on everything game related. Just fill out this quick form and never miss the latest information
-on upcoming titles, game beta, or ongoing deals. We are commited to keep you informed.</p>
+    <p class="box">The Gaming Division will bring you the latest news weekly on everything game related. Just fill out this quick form and never miss the latest information
+on upcoming titles, game beta, or ongoing deals. We are commited to keep you informed. Everything you love in a single email.</p>
     <section id="sec-form">
       <form action="#null" id="form-newsletter">
-    <ol>
-      <li id="input-name">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Prefered Name" />
-      </li>
-      <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" />
-      </li>
-      <li id="input-deals">
-        <input type="checkbox" name="deals" id="deals" value="deals" />
-        <label for="deals">I would like to recive notifications of game promossions as they arrise. </label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
-      </li>
-    </ol>
-  </form>
+        <ol>
+          <li id="input-name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Prefered Name" required />
+          </li>
+          <li id="input-email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="you@example.com" required pattern="^.+@.+$" />
+          </li>
+          <li id="input-deals">
+            <input type="checkbox" name="deals" id="deals" value="deals" />
+            <label for="deals">I would like to receive notifications of game promotions as they become available. </label>
+          </li>
+          <li id="input-submit">
+            <input type="submit" name="submit" id="submit" value="Subscribe" />
+          </li>
+        </ol>
+      </form>
     </section>
+	<section id="benefits" class='box'>
+	  <h2>The Benefits of Us</h2>
+	  <ul>
+        <li>Games in development</li>
+	    <li>Upcoming updates</li>
+	    <li>Promotions</li>
+	    <li>Release days</li>
+	    <li>Giveways</li>
+	    <li>eSports</li>
+	    <li>New Tech</li>
+		<li>Game Beta</li>
+		<li>++More++</li>
+	  </ul>
+	</section>
   </body>
 </html>
