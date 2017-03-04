@@ -91,26 +91,89 @@ ol{
 
 #bg-img2 img{
   position: absolute;
-  width: 80%;
+  width: 28%;
   opacity: .3;
-  padding-left: 30%;
-  padding-top: 10em;
+  padding-left: 60%;
+  padding-top: 18em;
   pointer-events: none;
 }
 
-@media screen and (min-width: 37.5em)/*600px / 18px*/{
+.z{
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 22.5em)/*360px / 16px*/{
+  
+  #bg-img2 img{
+	padding-top: 15em;
+  }
+  
+  @media screen and (min-width: 31.25em)/*500px / 16px*/{
+  
+  #bg-img2 img{
+	padding-top: 9em;
+	padding-left: 50%;
+  }
+  
+@media screen and (min-width: 37.5em)/*600px / 16px*/{
 
   .box, #sec-form{
 	max-width: 80%;
 	margin: 0 10%;
   }
   
-  #bg-img2 img{
-	width: 70%;
+@media screen and (min-width: 62.5em)/*720px / 16px*/{
+
+  html{
+	padding-bottom: 40em;  
   }
   
-@media screen and (min-width: 33.33em)/*720px / 18px*/{
-	
-	
-	
+  h1{
+    background-size: 100% 100%;
+  }
+  
+  #sec-form{
+	position: absolute;
+	max-width: 40%;
+  }
+  
+  #benefits{
+	position: absolute;
+	min-width: 30%;
+	margin-left: 52%;
+  }
+  
+  #bg-img2 img{
+	display: none;
+  }
+  
+  .z{
+	opacity: 1;
+	position: absolute;
+  }
+  
+  #z5{
+	margin-top: 15.5em;
+  }
+  
+  #z4{
+	margin-top: 17em;
+	margin-left: 20%;
+  }
+  
+  #z3{
+	margin-top: 17em;
+	margin-left: 35%;
+  }
+  
+  #z2{
+	margin-top: 17em;
+	margin-left: 45%;
+  }
+  
+  #z1{
+	margin-top: 17em;
+	margin-left: 55%;
+  }
 }
