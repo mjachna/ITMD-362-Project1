@@ -123,7 +123,7 @@ ol{
 	margin: 0 10%;
   }
   
-@media screen and (min-width: 62.5em)/*720px / 16px*/{
+@media screen and (min-width: 62.5em)/*1000px / 16px*/{
 
   html{
 	padding-bottom: 40em;  
