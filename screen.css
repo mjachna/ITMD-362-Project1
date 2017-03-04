@@ -7,7 +7,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 html{
-  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-size: 1.125em; /* 18px/16px */
   line-height: 1.2em; /* 18 x 120% = 22px */
   padding: 3.3375% 3.4375%; /* 22px /2 = 11px 11/320=0.034375 */ 
@@ -89,34 +89,32 @@ ol{
   text-align: center;
 }
 
-#bg-img2 img{
+#suit2 img{
   position: absolute;
   width: 28%;
   opacity: .3;
   padding-left: 60%;
   padding-top: 18em;
-  pointer-events: none;
+  /*pointer-events: none; /* Css not valid*/
 }
 
 .z{
   position: absolute;
   display: none;
   opacity: 0;
-  pointer-events: none;
-}
-  
+  /*pointer-events: none; /* Css not valid*/
 }
 
 @media screen and (min-width: 22.5em)/*360px / 16px*/{
   
-  #bg-img2 img{
+  #suit2 img{
     padding-top: 15em;
   }
 }
   
   @media screen and (min-width: 31.25em)/*500px / 16px*/{
   
-  #bg-img2 img{
+  #suit2 img{
     padding-top: 9em;
     padding-left: 50%;
   }
@@ -152,7 +150,7 @@ ol{
     margin-left: 52%;
   }
   
-  #bg-img2 img{
+  #suit2 img{
     display: none;
   }
   
