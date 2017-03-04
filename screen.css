@@ -110,30 +110,30 @@ ol{
 @media screen and (min-width: 22.5em)/*360px / 16px*/{
   
   #bg-img2 img{
-	padding-top: 15em;
+    padding-top: 15em;
   }
 }
   
   @media screen and (min-width: 31.25em)/*500px / 16px*/{
   
   #bg-img2 img{
-	padding-top: 9em;
-	padding-left: 50%;
+    padding-top: 9em;
+    padding-left: 50%;
   }
 }
   
 @media screen and (min-width: 37.5em)/*600px / 16px*/{
 
   .box, #sec-form{
-	max-width: 80%;
-	margin: 0 10%;
+    max-width: 80%;
+    margin: 0 10%;
   }
 }
   
 @media screen and (min-width: 62.5em)/*1000px / 16px*/{
 
   html{
-	padding-bottom: 40em;  
+    padding-bottom: 40em;  
   }
   
   h1{
@@ -141,48 +141,48 @@ ol{
   }
   
   #sec-form{
-	position: absolute;
-	margin-left: 9%;
-	max-width: 40%;
+    position: absolute;
+    margin-left: 9%;
+    max-width: 40%;
   }
   
   #benefits{
-	position: absolute;
-	min-width: 30%;
-	margin-left: 52%;
+    position: absolute;
+    min-width: 30%;
+    margin-left: 52%;
   }
   
   #bg-img2 img{
-	display: none;
+    display: none;
   }
   
   .z{
-	display: inline;
-	opacity: 1;
+    display: inline;
+    opacity: 1;
   }
   
   #z5{
-	margin-top: 15.5em;
+    margin-top: 15.5em;
   }
   
   #z4{
-	margin-top: 17em;
-	margin-left: 20%;
+    margin-top: 17em;
+    margin-left: 20%;
   }
   
   #z3{
-	margin-top: 17em;
-	margin-left: 35%;
+    margin-top: 17em;
+    margin-left: 35%;
   }
   
   #z2{
-	margin-top: 17em;
-	margin-left: 45%;
+    margin-top: 17em;
+    margin-left: 45%;
   }
   
   #z1{
-	margin-top: 17em;
-	margin-left: 55%;
+    margin-top: 17em;
+    margin-left: 55%;
   }
 }
 
